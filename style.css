@@ -20,7 +20,8 @@ body {
 
 .container {
   display: grid;
-  width: 1120px;
+  width: calc(100% - 2rem);
+  max-width: 1120px;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   grid-template-rows: repeat(8, 90px);
   gap: 20px;
