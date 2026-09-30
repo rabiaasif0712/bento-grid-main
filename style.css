@@ -200,3 +200,93 @@ body {
   font-size: 2rem;
   line-height: 1.08;
 }
+
+@media (max-width: 1100px) {
+  .container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: none;
+  }
+
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6,
+  .card7,
+  .card8 {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .card2 {
+    order: 1;
+    grid-column: span 2;
+  }
+
+  .card5 {
+    order: 2;
+  }
+
+  .card6 {
+    order: 3;
+  }
+
+  .card3 {
+    order: 4;
+  }
+
+  .card7 {
+    order: 5;
+    grid-column: span 2;
+  }
+
+  .card8 {
+    order: 6;
+  }
+
+  .card1 {
+    order: 7;
+  }
+
+  .card4 {
+    order: 8;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+    margin: 24px auto;
+  }
+
+  .card2,
+  .card7 {
+    grid-column: auto;
+  }
+
+  .card2 {
+    padding: 32px 20px;
+  }
+
+  .card2 h1 {
+    font-size: 3rem;
+  }
+
+  .card5 img {
+    width: 280px;
+    max-width: none;
+  }
+
+  .card6 {
+    min-height: 220px;
+  }
+
+  .card7 {
+    flex-direction: column;
+    gap: 24px;
+    padding: 28px 24px;
+    text-align: center;
+  }
+}
