@@ -70,28 +70,23 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   padding: 28px 32px;
   background: hsl(256 67% 59%);
   color: white;
   text-align: center;
 }
-
 .card2 h1 {
   margin-bottom: 18px;
   font-size: 3.5rem;
   line-height: 0.98;
 }
-
 .card2 span {
   color: hsl(39 100% 71%);
 }
-
 .card2 img {
   width: 190px;
   margin-bottom: 8px;
 }
-
 .card2 p {
   font-size: 1rem;
 }
@@ -102,20 +97,17 @@ body {
   padding: 24px;
   background: hsl(254 88% 90%);
 }
-
 .card3 h1 {
   margin-bottom: 16px;
   font-size: 1.8rem;
   line-height: 1.08;
 }
-
 .card3 img {
   display: block;
   width: 320px;
   max-width: none;
   margin-bottom: 20px;
 }
-
 .card3 p {
   font-size: 1rem;
   line-height: 1.4;
@@ -127,13 +119,11 @@ body {
   padding: 24px;
   background: hsl(39 100% 71%);
 }
-
 .card4 h1 {
   margin-bottom: 30px;
   font-size: 2.25rem;
   line-height: 1.02;
 }
-
 .card4 img {
   width: 250px;
 }
@@ -144,7 +134,6 @@ body {
   padding: 18px 20px;
   background: white;
 }
-
 .card5 h1 {
   margin-top: 20px;
   font-size: 1.5rem;
@@ -166,11 +155,9 @@ body {
   font-size: 2.7rem;
   margin-bottom: 20px;
 }
-
 .card8 p {
   font-size: 1.1rem;
 }
-
 .card8 img {
   width: 210px;
 }
@@ -182,13 +169,11 @@ body {
   padding: 18px 20px;
   background: hsl(39 100% 71%);
 }
-
 .card6 h1 {
   position: relative;
   font-size: 1.45rem;
   line-height: 1.05;
 }
-
 .card6 img {
   position: absolute;
   bottom: -70px;
@@ -207,11 +192,9 @@ body {
   background: hsl(256 67% 59%);
   color: white;
 }
-
 .card7 img {
   width: 220px;
 }
-
 .card7 h1 {
   font-size: 2rem;
   line-height: 1.08;
